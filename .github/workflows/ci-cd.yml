@@ -32,7 +32,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
 
-      # Шаг 4: Собираем и публикуем Docker-образ
+      # Шаг 4: Собираем и публикуем Docker-образз
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v5
         with:
